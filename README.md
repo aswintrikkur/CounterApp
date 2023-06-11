@@ -7,3 +7,4 @@
     - useReduce 
 
 
+![counterAPP](https://github.com/aswintrikkur/CounterApp/assets/125629462/0a260fd6-ec3f-476f-948a-0666a739dca7)
