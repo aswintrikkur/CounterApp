@@ -22,8 +22,6 @@
 	flex-direction: column;
 	justify-content: center;
 }
-.count h1 {
-}
 .counter-container .buttons {
 	display: flex;
 	justify-content: space-between;
