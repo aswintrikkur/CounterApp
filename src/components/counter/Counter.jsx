@@ -1,6 +1,6 @@
 import { useReducer, useState } from 'react'
 import './Counter.css'
-import { counterReducer } from './counterReducer';
+import { ACTION, counterReducer } from './counterReducer';
 
 
 
@@ -19,9 +19,9 @@ export const Counter = () => {
             <div className="counter-container">
                 <h1 className='count'>{state.count} </h1>
                 <div className="buttons">
-                    <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
-                    <button className='reset-btn' onClick={() => dispatch({ type: 'reset' })}>RESET</button>
-                    <button onClick={() => dispatch({ type: 'increment' })}>+</button>
+                    <button onClick={() => dispatch({ type: ACTION.DECREMENT })}>-</button>
+                    <button className='reset-btn' onClick={() => dispatch({ type: ACTION.RESET })}>RESET</button>
+                    <button onClick={() => dispatch({ type: ACTION.INCREMENT })}>+</button>
                 </div>
                 <div className="footer">
                     <div className="body"  >
