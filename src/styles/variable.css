@@ -1,0 +1,12 @@
+:root{
+    --bg-color: #888faf81;
+    --primary-color: rgb(47, 53, 63);
+    /* --secondary-color: */
+    --loading-bar: #ffffffe1;
+    --font-color: rgba(255, 255, 255, 0.884);   
+    --shadow-color:rgba(0, 0, 0, 0.586);
+
+    --btn-color-primary:#6b6b6b;
+    --btn-color-secondary:rgb(206, 34, 34);
+
+}

@@ -1,5 +1,5 @@
 .counter-container {
-	background-color: rgb(47, 53, 63);
+	background-color: var(--primary-color);
 	width: 380px;
 	height: 400px;
 	border: solid 3px rgb(92, 89, 89);
@@ -8,13 +8,13 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	box-shadow: 25px 0px 30px 5px rgba(0, 0, 0, 0.586);
+	box-shadow: 25px 0px 30px 5px var(--shadow-color);
 }
 .counter-container .count {
 	width: 220px;
 	height: 220px;
 	font-size: 100px;
-	border: 1px dashed rgba(255, 255, 255, 0.562);
+	border: 1px dashed rgba(255, 253, 253, 0.562);
 	font-weight: 100;
 	border-radius: 50%;
 	margin: auto;
@@ -35,6 +35,7 @@
 	font-weight: 300;
 	border-radius: 10%;
 	border: none;
+	background-color:var(--btn-color-primary);
 }
 .buttons button:hover {
 	background-color: gray;
@@ -44,7 +45,7 @@
 .counter-container .buttons .reset-btn {
 	width: 180px;
 	height: 55px;
-	background-color: rgb(206, 34, 34);
+	background-color: var(--btn-color-secondary);
 	border-radius: 5px;
 }
 .buttons .reset-btn:hover {
@@ -75,5 +76,5 @@
 .footer .body .content {
 	height: 100%;
 	width: 5%;
-	background-color: #ffffffe1;
+	background-color: var(--loading-bar);
 }
